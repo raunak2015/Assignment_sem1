@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <hr>
+    <h1>CodingGita Student Registration Form</h1>
+    <br>
+    <h3>Please fill out the form below to register for the CodingGita MERN Stack Program.</h3>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>Registration Form </legend>
+        <form action="post">
+
+            <label for="name">Full Name :</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="Email">Email :</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="Password">Password :</label>
+            <input type="password" name="" id="">
+            <br>
+            <br>
+            <label for="Mobile No.">Mobile No.</label>
+            <input type="tel" name="Mobile No." id="Mobile No." maxlength="10" minlength="10">
+            <br>
+            <br>
+            <label for="Gender">Gender :</label>
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Other">
+            <label for="Other">Other</label>
+            <br>
+            <br>
+            <label for="Hobbies">Hobbies :</label>
+            <input type="checkbox" name="Hobbies" id="Reading">
+            <label for="Reading">Reading</label>
+            <input type="checkbox" name="Hobbies" id="coding">
+            <label for="coding">coding</label>
+            <input type="checkbox" name="Hobbies" id="Sports">
+            <label for="Sports">Sports</label>
+            <input type="checkbox" name="Hobbies" id="Music">
+            <label for="Music">Music</label>
+            <br>
+            <br>
+            <label for="Date of Birth">Date of Birth :</label>
+            <input type="date">
+            <br>
+            <br>
+            <label for="Upload Photo">Upload Photo :</label>
+            <input type="file" name="Photo" id="Photo">
+            <br><br>
+            <label for="Course Selection">Course Selection :</label>
+
+            <select name="Course" id="Course">
+                <option value="MERN Stack">MERN Stack</option>
+                <option value="DSA ">DSA </option>
+                <option value="Web Development">Web Development</option>
+            </select>
+            <br>
+            <br>
+            <label for="Address">Address :</label>
+            <textarea name="Address" id="Address" rows="3" cols="25"></textarea>
+            <br>
+            <br>
+            <label for="Preferred Study Hours">Preferred Study Hours :</label>
+            <input type="range" name="Preferred Study Hours" id="Preferred Study Hours" min="0" max="24" value="4"
+                oninput="output.value = this.value">
+            <output name="output">4</output>
+            <br>
+            <br>
+            <label for="Favorite Color">Favorite Color :</label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <label for="Portfolio Website">Portfolio Website :</label>
+            <input type="url" name="Portfolio Website" id="Portfolio Website">
+            <br>
+            <br>
+            <label for="Search Interests">Search Interests :</label>
+            <input type="search" name="Search Interests" id="Search Interests">
+            <br>
+            <br>
+            <label for="Preferred Study Time">Preferred Study Time :</label>
+            <input type="time" name="Preferred Study Time" id="">
+
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" name="" id="">
+    <input type="reset" name="" id="">
+    </form>
+</body>
+
+</html>
